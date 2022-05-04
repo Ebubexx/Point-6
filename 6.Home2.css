@@ -1,104 +1,93 @@
-.h2_3 {
-  font-family: 'Cinzel', serif;
-  font-size: 4em;
-  display: flex;
-  justify-content: flex-start;
-  text-align: flex-start;
-  margin: 150px 0 30px 1em ;
-}
 
 .button2 {
-  background-color: #5F4236;
-  width: 150px;
-  height: 45px;
-  border: none;
-  border-radius: 30px;
-  margin-left: 4em;
-  margin-top: 30px;
-  margin-bottom: 100px;
+  background-color: #5F4236; /* background colour set to #5F4236 */
+  width: 150px; /* width of button element 150px */
+  height: 45px; /* height of button element 45px */
+  border: none; /* removes border */
+  border-radius: 30px; /* curve of edges 30px */
+  margin: 30px 0 50px 4em; /* top right bottom left */
 }
 
 .button2:hover {
-  cursor: pointer;
-  transform: translateX(0.25em);
-  box-shadow: -2px 2px 5px #463433;
-}
-
-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  cursor: pointer; /* changes cursor when hovered */
+  transform: translateX(0.25em); /* moves button 0.25em to the right */
+  box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur #463433 */
 }
 
 .img_article1 {
-  width: 210px;
-  height: 100px;
-  margin: 2em 2em;
-  border-radius: 35px;
-  border: none;
+  width: 210px; /* width of image 210px */
+  height: 100px; /* height of image 100px */
+  margin: 2em 2em; /* vertical horizontal margin */
+  border-radius: 35px; /* curve of edges 35px */
+  border: none; /* removes border */
 }
 
 article {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  display: flex; /* activates flex */
+  justify-content: space-around; /* justifies equal space around the content */
+  align-items: flex-start; /* aligns text to the start of container */
 }
 
 .section2 {
-  width: 270px;
-  height: 310px;
-  background-color: white;
-  border-radius: 35px;
-  margin-bottom: 25px;
+  width: 270px; /* width of section 270px */
+  height: 310px; /* height of image 310px */
+  background-color: white; /* background colour of section white */
+  border-radius: 35px; /* curve of edges 35px*/
+  margin-bottom: 25px; /* bottom margin 25px */
 }
 
 .p4 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: small;
-  background-color: white;
-  width: 210px;
-  margin-left: 15px
+  font-family: 'Montserrat', sans-serif; /* changes the font */
+  font-weight: 300; /* changes the thickness of font */
+  font-size: small; /* changes the font size */
+  background-color: white; /* changes background colour of p element */
+  width: 210px; /* width of p element set to 210px */
+  margin-left: 15px; /* height of p element set to 15px */
 }
 
 nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: flex;  /* activates flex */
+  justify-content: flex-start; /* justifies content to the start of container */
+  align-items: flex-start; /* aligns text to the start of container */
 }
 
 .a_nav {
-  color: #5F4236;
-  margin: 50px 50px 0 50px;
-  font-family: 'Cinzel', serif;
+  color: #5F4236; /* colour of a element set to #5F4236 */
+  margin: 50px 50px 0 50px; /* top right bottom left */
+  font-family: 'Cinzel', serif; /* font set to Cinzel */
+}
+
+.a_nav:hover {
+  cursor: pointer; /* changes cursor when hovered */
+  transform: translateX(0.5em); /* moves link 0.5em to the right */
 }
 
 .logo {
-  background-image: url(logo1.2-removebg.png);
-  width: 100px;
-  height: 100px;
-  border-radius: 5px 20px 5px;
-  background-size: contain;
-  border: none;
-  margin-left: 30px;
+  background-image: url(logo1.2-removebg.png); /* uses chosen image for background logo */
+  width: 100px; /* width of image set to 100px */
+  height: 100px;  /* height of image set to 100px */
+  border-radius: 5px 20px 5px; /* top-left | top-right-and-bottom-left | bottom-right */
+  background-size: contain; /* image set to fit container */
+  background-repeat: no-repeat; /* stops image from repeating */
+  border: none; /* removes border */
+  margin-left: 25px; /* left-side margin 25px */
 }
 
 .logo:hover {
-  cursor: pointer;
+  cursor: pointer; /* changes cursor when hovered */
 }
 
-/* .span1 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  background-color: #E6BD8F;
-  width: 400px;
-  height: 600px;
-  margin: 0 15px 0 600px;
-  padding-bottom: 300px;
+.div1 {
+  display: inline-block; /* changes div block element to inline */
+  justify-content: flex-end; /* justifies text to the end of container */
+  align-items: flex-end; /* aligns text to the end of container */
+  background-color: #E6BD8F; /* background colour set to #E6BD8F */
+  width: 400px; /* width of div 400px */
+  height: 600px; /*  height of div 600px */
+  margin-left: 800px; /* left-side margin 800px */
 }
 
-.snack {
-  width: 50px;
-  height: 50px;
-} */
+.home_img {
+  width: 50px; /* width of image 50px */
+  height: 50px; /* height of image 50px */
+}

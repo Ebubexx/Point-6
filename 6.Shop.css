@@ -1,0 +1,98 @@
+* {
+  background-color: #5F4236; /*changes background colour*/
+}
+
+body {
+  margin: 0; /*sets margin on the body to 0*/
+}
+
+h1 {
+  font-family: 'Cinzel', serif; /* font - Cinzel */
+  font-weight: 900; /* increases the boldness of font */
+  color: #FBF5F0; /* changed colour of text to #fBF5F0 */
+  margin-left: 2em; /* left-side margin - 4em */
+  font-size: 3em; /* increases font-size to 4.5em */
+}
+
+nav {
+  display: flex; /* activates flex */
+  justify-content: flex-start; /* justifies content to the start of container */
+  align-items: flex-start; /* aligns text to the start of container */
+  background-color: #FBF5F0; /* background colour set set #FBF5F0 */
+}
+
+a {
+  text-decoration: none; /* removes all text decoration */
+  background: none; /* removes link background */
+  color: #EFEDEC; /* link background set to #EFEDEC */
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  font-weight: 600; /* font thickness - 600 */
+  font-size: medium; /* font size - medium */
+}
+
+.a_nav {
+  color: #5F4236; /* nav link colour - #5F4236 */
+  margin: 50px 50px 0 50px; /* top | right | bottom | left */
+  font-family: 'Cinzel', serif; /* font family - Cinzel */
+}
+
+.a_nav:hover {
+  cursor: pointer; /* pointer cursor activated when hovered */
+  transform: translateX(0.5em); /* moves button 0.5em to the right */
+}
+
+.logo { 
+  background-image: url(logo1.2-removebg.png); /* uses chosen image for background logo */
+  width: 100px; /* image width set to 100px */
+  height: 100px; /* image height set to 100px */
+  border-radius: 5px 20px 5px; /* top-left | top-right-and-bottom-left | bottom-right */
+  background-color: #FBF5F0; /* background colour #FBF5F0 */
+  background-size: contain; /* full image to fit container */
+  background-repeat: no-repeat; /* do not repeat image */
+  border: none; /* remove borders */
+  margin-left: 25px; /* left-side margin - 25px */
+}
+
+.logo:hover {
+  cursor: pointer; /* pointer curser activated when hovered */
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  font-weight: 900; /* font thickness - 900 */
+  font-size: small; /* font size - small */
+  display: flex; /* flexbox activated */
+  justify-content: flex-end; /* justifies content to the end */
+  align-items: flex-end; /* aligns content to the end of conatiner */
+}
+
+article {
+  display: flex; /* activates flex */
+  justify-content: space-around; /* justifies equal space around the content */
+  align-items: flex-start; /* aligns text to the start of container */
+}
+
+.img_article1 {
+  width: 210px; /* width of image 210px */
+  height: 100px; /* height of image 100px */
+  margin: 2em 2em; /* vertical horizontal margin */
+  border-radius: 35px; /* curve of edges 35px */
+  border: none; /* removes border */
+}
+
+.section2 {
+  width: 270px; /* width of section 270px */
+  height: 310px; /* height of image 310px */
+  background-color: white; /* background colour of section white */
+  border-radius: 35px; /* curve of edges 35px*/
+  margin-bottom: 25px; /* bottom margin 25px */
+}
+
+.p4 {
+  font-family: 'Montserrat', sans-serif; /* changes the font */
+  font-weight: 300; /* changes the thickness of font */
+  font-size: small; /* changes the font size */
+  background-color: white; /* changes background colour of p element */
+  width: 210px; /* width of p element set to 210px */
+  margin-left: 15px; /* height of p element set to 15px */
+}

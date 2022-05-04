@@ -1,0 +1,46 @@
+@media only screen and (max-width: 720px) { /* applies when webpage is shurnk below 720px */
+  h1 {
+    font-size: 5em;
+  }
+  main {
+    width: 25em;
+  }
+}
+
+@media only screen and (max-width: 606px) { /* applies when wep page is shrunk below 606px */
+  h1 {
+    font-size: 4em;
+  }
+  main {
+    width: 19em;
+  }
+}
+
+@media only screen and (max-width: 600px) { /* Extra small devices (phones, 600px and down) */
+  h1 {
+    font-size: 2.75em;
+  }
+  main {
+    width: 15em;
+    font-size: 17px;
+  }
+  button {
+    width: 100px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) { /* Large devices (laptops/desktops, 992px and up) */
+  h1 {
+    font-size: 4em;
+  }
+  main {
+    width: 20em;
+    font-size: 20px;
+  }
+  button {
+    width: 100px;
+    height: 35px;
+  }
+}

@@ -1,98 +1,90 @@
 * {
-  background-color: #FBF5F0;
+  background-color: #FBF5F0; /* background colour set to #FBF5F0 */
 }
 
-h1 {
-  font-family: 'Cinzel', serif;
-  font-size: 4.5em;
-  display: flex;
-  justify-content: flex-start;
-  text-align: flex-start;
-  margin: 100px 0 30px 1em;
+body {
+  margin: 0; /* sets margin on the body to 0 */
+}
+
+h1,h2,h3 {
+  font-family: 'Cinzel', serif; /* font set to Cinzel */
+  font-size: 4.5em; /* font size set to 4.5em */
+  display: flex; /* activates flex */
+  justify-content: flex-start; /* justifies content to the start of container */
+  text-align: flex-start; /* aligns text to the start of container */
+  margin: 100px 0 30px 1em; /* top right bottom left */
 }
 
 .p1 {
-  width: 30em;
-  height: 10em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: large;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-left: 4em;
+  width: 30em; /* width of p element 30em */
+  height: 10em; /* height of p element 10em */
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  font-weight: 300; /* thickness of font set to 300 */
+  font-size: large; /* font size set to large */
+  margin-left: 4em; /* left-side margin set to 4em */
+  margin-right: 0; /* right-side margin set to 0 */
 }
 
 a {
-  text-decoration: none;
-  background: none;
-  color: #EFEDEC;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: medium;
+  text-decoration: none; /* removes any text decoration */
+  background: none; /* removes background */
+  color: #EFEDEC; /* colour of text set to #EFEDEC */
+  font-family: 'Montserrat', sans-serif; /* font set to Motserrat */
+  font-weight: 600; /* thickness of font set to 600 */
+  font-size: medium; /* font size set to medium */
 }
 
 .button1 {
-  background-color: #5F4236;
-  width: 150px;
-  height: 45px;
-  border: none;
-  border-radius: 30px;
-  margin-left: 4em;
-  margin-top: 30px;
+  background-color: #5F4236; /* background colour set to #5F4236 */
+  width: 150px; /* width of button element 150px*/
+  height: 45px; /* height of button element 45px */
+  border: none; /* removes border */
+  border-radius: 30px; /* curve of edges 30px */
+  margin: 30px 0 50px 4em; /* top right bottom left */
 }
 
-.button1:hover {
-  cursor: pointer;
-  transform: translateX(0.25em);
-  box-shadow: -2px 2px 5px #463433;
-}
-
-.h2_1 {
-  font-family: 'Cinzel', serif;
-  font-size: 4em;
-  display: flex;
-  justify-content: flex-end;
-  text-align: flex-end;
-  margin: 150px 1em 10px 0 ;
+.button1:hover { 
+  cursor: pointer; /* changes cursor when hovered */
+  transform: translateX(0.25em); /* moves button 0.25em to the right */
+  box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur #463433 */
 }
 
 .p2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-right: 4em;
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  font-weight: bolder; /* thickness of font set to bold */
+  display: flex; /* activates flex */
+  justify-content: flex-start; /* justifies content to the start of container */
+  align-items: flex-start; /* aligns text to the start of container */
+  margin-left: 5em; /* left-side margin 5em */
 }
 
 .section1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  display: flex; /* activates flex */
+  justify-content: space-around; /* creates space around content */
+  align-items: flex-end; /* text aligned to the end of container */
 }
 
 .img_sizes {
-  width: 300px;
-  height: 100px;
-  margin: 2em 4em;
+  width: 300px; /* width of image 300px */
+  height: 100px; /* height of image 100px */
+  margin: 2em 4em; /* vertical horizontal margin */
 }
 
 .p3 {
-  width: 300px;
-  height: 100px;
-  margin: 0 4em;
+  width: 300px; /* width of p element 300px */
+  height: 100px; /* height of p element 100px */
+  margin: 0 4em; /* vertical horizontal margin */
 }
 
 em {
-  font-weight: bold;
+  font-weight: bold; /* makes em bold */
 }
 
 footer {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: small;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  font-weight: 900; /* thickness of font set to 900 */
+  font-size: small; /* font size set to small */
+  display: flex; /* activates flex */
+  justify-content: flex-end; /* justifies content to the end of container */
+  align-items: flex-end; /* aligns text to the end of container */
 }
