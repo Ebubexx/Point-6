@@ -1,5 +1,5 @@
 
-.button2 {
+.button_to_shop {
   background-color: #5F4236; /* background colour set to #5F4236 */
   width: 150px; /* width of button element 150px */
   height: 45px; /* height of button element 45px */
@@ -8,7 +8,7 @@
   margin: 30px 0 50px 4em; /* top right bottom left */
 }
 
-.button2:hover {
+.button_to_shop:hover {
   cursor: pointer; /* changes cursor when hovered */
   transform: translateX(0.25em); /* moves button 0.25em to the right */
   box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur #463433 */
@@ -62,7 +62,7 @@ nav {
   transform: translateX(0.5em); /* moves link 0.5em to the right */
 }
 
-.logo {
+#logo {
   background-image: url(logo1.2-removebg.png); /* uses chosen image for background logo */
   width: 100px; /* width of image set to 100px */
   height: 100px;  /* height of image set to 100px */
@@ -73,21 +73,13 @@ nav {
   margin-left: 25px; /* left-side margin 25px */
 }
 
-.logo:hover {
+#logo:hover {
   cursor: pointer; /* changes cursor when hovered */
 }
 
-.div1 {
-  display: inline-block; /* changes div block element to inline */
-  justify-content: flex-end; /* justifies text to the end of container */
-  align-items: flex-end; /* aligns text to the end of container */
-  background-color: #E6BD8F; /* background colour set to #E6BD8F */
-  width: 400px; /* width of div 400px */
-  height: 600px; /*  height of div 600px */
-  margin-left: 800px; /* left-side margin 800px */
-}
-
-.home_img {
-  width: 50px; /* width of image 50px */
-  height: 50px; /* height of image 50px */
+main {
+  width: 600px;
+  height: 600px;
+  box-shadow: 780px -50px 0 1px #E6BD8F;
+  /* background: url(puff\ puff.png); */
 }

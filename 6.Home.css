@@ -8,11 +8,21 @@ body {
 
 h1,h2,h3 {
   font-family: 'Cinzel', serif; /* font set to Cinzel */
-  font-size: 4.5em; /* font size set to 4.5em */
+  font-size: 4em; /* font size set to 4em */
   display: flex; /* activates flex */
   justify-content: flex-start; /* justifies content to the start of container */
   text-align: flex-start; /* aligns text to the start of container */
   margin: 100px 0 30px 1em; /* top right bottom left */
+}
+
+h2 {
+  font-size: 3.75em; /* specifies 3.5em for h2 instead of 4em for h1 */
+}
+
+h3 {
+  font-size: medium; /* makes font smaller than h2 */
+  font-weight: bold; /* makes h3 bold */
+  margin: 0 0 0 4em; /* top right bottom left */
 }
 
 .p1 {
@@ -34,7 +44,7 @@ a {
   font-size: medium; /* font size set to medium */
 }
 
-.button1 {
+.view_more {
   background-color: #5F4236; /* background colour set to #5F4236 */
   width: 150px; /* width of button element 150px*/
   height: 45px; /* height of button element 45px */
@@ -43,7 +53,7 @@ a {
   margin: 30px 0 50px 4em; /* top right bottom left */
 }
 
-.button1:hover { 
+.view_more:hover { 
   cursor: pointer; /* changes cursor when hovered */
   transform: translateX(0.25em); /* moves button 0.25em to the right */
   box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur #463433 */
@@ -58,8 +68,9 @@ a {
   margin-left: 5em; /* left-side margin 5em */
 }
 
-.section1 {
+.sizes_section {
   display: flex; /* activates flex */
+  flex-direction: column;
   justify-content: space-around; /* creates space around content */
   align-items: flex-end; /* text aligned to the end of container */
 }
