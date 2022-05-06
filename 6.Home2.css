@@ -14,7 +14,7 @@
   box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur #463433 */
 }
 
-.img_article1 {
+.menu_preview {
   width: 210px; /* width of image 210px */
   height: 100px; /* height of image 100px */
   margin: 2em 2em; /* vertical horizontal margin */
@@ -78,8 +78,21 @@ nav {
 }
 
 main {
-  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main_div {
+  background-color: #E6BD8F;
+  width: 500px;
   height: 600px;
-  box-shadow: 780px -50px 0 1px #E6BD8F;
-  /* background: url(puff\ puff.png); */
+}
+
+.home_img {
+  background: none;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  align-items: flex-end;
 }
