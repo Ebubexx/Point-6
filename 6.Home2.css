@@ -14,41 +14,63 @@
   box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur #463433 */
 }
 
-.menu_preview {
-  width: 210px; /* width of image 210px */
-  height: 100px; /* height of image 100px */
-  margin: 2em 2em; /* vertical horizontal margin */
-  border-radius: 35px; /* curve of edges 35px */
+article {
+  display: flex; /* activates flex */
+  justify-content: space-evenly; /* justifies equal space around the content */
+  align-items: flex-start; /* aligns text to the start of container */
+  flex-wrap: wrap;
+}
+
+.food_menu_img {
+  width: 285px; /* width of image 210px */
+  height: 191px; /* height of image 100px */
+  margin-top: 10px; /* top margin - 2em */
+  border-radius: 15px; /* curve of edges 35px */
   border: none; /* removes border */
 }
 
-article {
+.menu_section {
+  width: 310px; /* width of section 270px */
+  height: 395px; /* height of image 310px */
   display: flex; /* activates flex */
-  justify-content: space-around; /* justifies equal space around the content */
-  align-items: flex-start; /* aligns text to the start of container */
-}
-
-.section2 {
-  width: 270px; /* width of section 270px */
-  height: 310px; /* height of image 310px */
+  flex-direction: column; /* flex box properties changed to column */
+  justify-content: space-between; /* justifies content at center */
+  align-items: center; /* aligns text to the center of container */
   background-color: white; /* background colour of section white */
-  border-radius: 35px; /* curve of edges 35px*/
-  margin-bottom: 25px; /* bottom margin 25px */
+  border-radius: 20px; /* curve of edges 35px*/
+  box-shadow: -30px -30px 0 #E6BD8F; /* box shadow top | left | no blur */
 }
 
-.p4 {
+.p_description {
   font-family: 'Montserrat', sans-serif; /* changes the font */
-  font-weight: 300; /* changes the thickness of font */
+  font-weight: 400; /* changes the thickness of font */
   font-size: small; /* changes the font size */
   background-color: white; /* changes background colour of p element */
-  width: 210px; /* width of p element set to 210px */
-  margin-left: 15px; /* height of p element set to 15px */
+  width: 275px; /* width of p element set to 210px */
+  margin: 0; /* removes margins all margins around p element */
+}
+
+.p_price, h4 {
+  font-family: 'Cinzel', sans-serif; /* changes the font */
+  font-weight: 600; /* changes the thickness of font */
+  font-size: larger; /* increases font to large */
+  color: #5F4236; /* colour changed to #5F4236 */
+  background-color: white; /* changes background colour of p element */
+  display: flex; /* allows flexbox properties to be applied */
+  align-self: flex-start; /* aligns just the p and h4 element to be aligned at the start */
+  margin-left: 1em; /* left side margin used to create space align elements */
+}
+
+h4 {
+  margin: 0 0 0 1em;
 }
 
 nav {
   display: flex;  /* activates flex */
   justify-content: flex-start; /* justifies content to the start of container */
   align-items: flex-start; /* aligns text to the start of container */
+  height: 100px;
+  padding-top: 30px;
 }
 
 .a_nav {
@@ -83,8 +105,7 @@ main {
   flex-wrap: wrap;
 }
 
-.main_div {
-  background-color: #E6BD8F;
+.home_img_bkrnd {
   width: 500px;
   height: 600px;
 }

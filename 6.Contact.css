@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-image: url(background\ cookie.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+#logo { 
+  background-image: url(logo1.2-removebg.png); /* uses chosen image for background logo */
+  width: 100px; /* image width set to 100px */
+  height: 100px; /* image height set to 100px */
+  border-radius: 5px 20px 5px; /* top-left | top-right-and-bottom-left | bottom-right */
+  background-color: #fbf5f000; 
+  background-size: contain; /* full image to fit container */
+  background-repeat: no-repeat; /* do not repeat image */
+  border: none; /* remove borders */
+  margin-left: 25px; /* left-side margin - 25px */
+}
+
+#logo:hover {
+  cursor: pointer; /* pointer curser activated when hovered */
+}
+
+nav {
+  display: flex; /* activates flex */
+  justify-content: flex-start; /* justifies content to the start of container */
+  align-items: flex-start; /* aligns text to the start of container */
+  background-color: #fbf5f0e5; 
+  width: 900px;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none; /* removes all text decoration */
+  background: none; /* removes link background */
+  color: #EFEDEC; /* link background set to #EFEDEC */
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  font-weight: 600; /* font thickness - 600 */
+  font-size: medium; /* font size - medium */
+}
+
+.a_nav {
+  color: #5F4236; /* nav link colour - #5F4236 */
+  margin: 50px 50px 0 50px; /* top | right | bottom | left */
+  font-family: 'Cinzel', serif; /* font family - Cinzel */
+}
+
+.a_nav:hover {
+  cursor: pointer; /* pointer cursor activated when hovered */
+  transform: translateX(0.5em); /* moves button 0.5em to the right */
+}
+
+.h1_div {
+  display: flex;
+  justify-content: center;
+  background-color: #5F4236;
+  width: 550px;
+}
+
+h1 {
+  font-family: 'Cinzel', serif; /* font - Cinzel */
+  font-weight: 900; /* increases the boldness of font */
+  color: #EFEDEC; 
+  font-size: 4em; /* increases font-size to 4em */
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  font-weight: 900; /* thickness of font set to 900 */
+  font-size: large; /* font size set to small */
+  display: flex; /* activates flex */
+  justify-content: flex-start; /* justifies content to the end of container */
+  align-items: flex-start; /* aligns text to the end of container */
+  color: black;
+  background-color: #EFEDEC;
+}
+
+main {
+  width: 700px;
+  height: 500px;
+  background-color: #5F4236;
+  margin-left: 750px;
+}

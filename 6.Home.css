@@ -92,10 +92,14 @@ em {
 }
 
 footer {
+  display: flex; /* activates flex */
+  justify-content: flex-start; /* justifies content to the end of container */
+  align-items: flex-start; /* aligns text to the end of container */
+}
+
+.p_footer {
   font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
   font-weight: 900; /* thickness of font set to 900 */
-  font-size: small; /* font size set to small */
-  display: flex; /* activates flex */
-  justify-content: flex-end; /* justifies content to the end of container */
-  align-items: flex-end; /* aligns text to the end of container */
+  font-size: large; /* font size set to small */
+  margin-left: 3em;
 }

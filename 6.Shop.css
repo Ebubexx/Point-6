@@ -34,6 +34,8 @@ nav {
   justify-content: flex-start; /* justifies content to the start of container */
   align-items: flex-start; /* aligns text to the start of container */
   background-color: #FBF5F0; /* background colour set set #FBF5F0 */
+  height: 100px;
+  padding-top: 30px;
 }
 
 a {
@@ -73,12 +75,18 @@ a {
 }
 
 footer {
+  display: flex; /* activates flex */
+  justify-content: flex-start; /* justifies content to the end of container */
+  align-items: flex-start; /* aligns text to the end of container */
+  background-color: #FBF5F0;
+}
+
+.p_footer {
   font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
-  font-weight: 900; /* font thickness - 900 */
-  font-size: small; /* font size - small */
-  display: flex; /* flexbox activated */
-  justify-content: flex-end; /* justifies content to the end */
-  align-items: flex-end; /* aligns content to the end of conatiner */
+  font-weight: 900; /* thickness of font set to 900 */
+  font-size: large; /* font size set to small */
+  background-color: #FBF5F0;
+  color: black;
 }
 
 article {
@@ -87,7 +95,7 @@ article {
   align-items: flex-start; /* aligns text to the start of container */
 }
 
-.img_article1 {
+.food_menu_img {
   width: 285px; /* width of image 210px */
   height: 191px; /* height of image 100px */
   margin-top: 10px; /* top margin - 2em */
