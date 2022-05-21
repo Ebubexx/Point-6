@@ -2,28 +2,51 @@
   background-color: #FBF5F0; /* background colour set to #FBF5F0 */
 }
 
-h1 {
-  font-family: 'Cinzel', serif; /* font - Cinzel */
-  font-size: 6em; /* font size - 6em */
-  display: flex; /* flex */
-  justify-content: center; /* h1 centered */
-  text-align: center; /* text center aligned */
-  margin: 25px 0 0 0; /* top right bottom left */
+body {
+  display: flex;
+  justify-content: space-between;
 }
 
-main {
-  display: flex; /* flexbox properties */
-  justify-content: center; /* text justified at centre */
-  font-size: 20px; /* text size - 20px */
+article {
+  width: 500px;
+  height: 720px;
+  border-right: 1px solid rgba(0,0,0,.1);;
+}
+
+header {
+  display: flex; /* flex */
   text-align: center;
-  align-self: center;
-  width: 32em; /* width of container - 32em */
-  margin: auto; /* margin not specified - set to auto */
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Cinzel', serif; /* font - Cinzel */
+  font-size: 40px; /* font size - 6em */
+  margin: 0;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 p {
   font-family: 'Montserrat', sans-serif; /* font - Montserrat */
   font-weight: 300; /* font thickness is 300 */
+  width: 370px;
+  font-size: small;
+}
+
+em {
+  font-weight: bold;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; /* margin at top - 15px */
 }
 
 a {
@@ -33,12 +56,6 @@ a {
   font-family: 'Montserrat', sans-serif; /* font - Montserrat */
   font-weight: 600; /* font thickness - 600 */
   font-size: medium; /* font size - medium */
-}
-
-div { 
-  display: flex; /* flexbox activated */
-  justify-content: center; /* centers content */
-  margin-top: 15px; /* margin at top - 15px */
 }
 
 .button1 {
@@ -56,10 +73,15 @@ div {
   box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur */
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   background-image: url(logo2-removebg.png); /* background is selected image */
-  width: 190px; /* width of logo is 190px */
-  height: 190px; /* height of logo is 190px */
+  width: 200px; /* width of logo is 190px */
+  height: 200px; /* height of logo is 190px */
   border-radius: 5px 20px 5px; /* top-left | top-right-and-bottom-left | bottom-right */
   background-size: contain; /* image will be shrunk or enlarged to fit container */
   background-repeat: no-repeat; /* image will not be repeated when shrunk */
@@ -70,16 +92,19 @@ div {
   cursor: pointer; /* cursor is changed when hovered */
 }
 
-nav {
-  display: flex; /* flexbox properties applied to nav */
-  justify-content: center; /* content in vnav is centred */
+footer {
+  display: flex; /* activates flexbox properties */
+  justify-content: flex-start; /* content is justified to the start of the container */
+  margin-top: 100px; /* top margin - 55px */
 }
 
-footer {
+.p_footer {
   font-family: 'Montserrat', sans-serif; /* Montserrat font */
   font-weight: 900; /* font thickness 900 */
   font-size: small; /* font size - small */
-  display: flex; /* activates flexbox properties */
-  justify-content: flex-end; /* content is justified to the end of the container */
-  margin-top: 55px; /* top margin - 55px */
+}
+
+img {
+  width: 900px;
+  height: 1300px;
 }

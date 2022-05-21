@@ -1,8 +1,9 @@
+* {
+  background-color: #FBF5F0; /* background colour set to #FBF5F0 */
+}
+
 body {
   margin: 0;
-  background-image: url(background\ cookie.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 header {
@@ -16,7 +17,6 @@ header {
   width: 100px; /* image width set to 100px */
   height: 100px; /* image height set to 100px */
   border-radius: 5px 20px 5px; /* top-left | top-right-and-bottom-left | bottom-right */
-  background-color: #fbf5f000; 
   background-size: contain; /* full image to fit container */
   background-repeat: no-repeat; /* do not repeat image */
   border: none; /* remove borders */
@@ -31,7 +31,6 @@ nav {
   display: flex; /* activates flex */
   justify-content: flex-start; /* justifies content to the start of container */
   align-items: flex-start; /* aligns text to the start of container */
-  background-color: #fbf5f0e5; 
   width: 900px;
   padding-top: 30px;
 }
@@ -39,7 +38,6 @@ nav {
 a {
   text-decoration: none; /* removes all text decoration */
   background: none; /* removes link background */
-  color: #EFEDEC; /* link background set to #EFEDEC */
   font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
   font-weight: 600; /* font thickness - 600 */
   font-size: medium; /* font size - medium */
@@ -68,22 +66,53 @@ h1 {
   font-weight: 900; /* increases the boldness of font */
   color: #EFEDEC; 
   font-size: 4em; /* increases font-size to 4em */
+  background: none;
 }
 
 footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.p_footer {
   font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
   font-weight: 900; /* thickness of font set to 900 */
-  font-size: large; /* font size set to small */
-  display: flex; /* activates flex */
-  justify-content: flex-start; /* justifies content to the end of container */
-  align-items: flex-start; /* aligns text to the end of container */
-  color: black;
-  background-color: #EFEDEC;
+  font-size: large; /* font size set to x-large */
+  color: black; /* color of font - black */
+  margin-left: 3em; /* margin of p shifted 3em to the left */
 }
 
 main {
+  /* background-color: #5F4236; */
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+}
+
+.p_main {
+  font-family: 'Montserrat', sans-serif; /* font set to Montserrat */
+  width: 600px;
+  margin-left: 50px;
+  font-size: 1.5em;
+}
+
+.main_section {
   width: 700px;
-  height: 500px;
-  background-color: #5F4236;
-  margin-left: 750px;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  color: #5F4236;
+}
+
+.a_contact {
+  font-family: 'Cinzel', serif;
+  color: black;
 }
