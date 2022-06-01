@@ -4,13 +4,17 @@
 
 body {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 article {
   width: 500px;
   height: 720px;
   border-right: 1px solid rgba(0,0,0,.1);;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 header {
@@ -22,7 +26,7 @@ header {
 
 h1 {
   font-family: 'Cinzel', serif; /* font - Cinzel */
-  font-size: 40px; /* font size - 6em */
+  font-size: 50px; /* font size - 50px */
   margin: 0;
 }
 
@@ -36,7 +40,7 @@ p {
   font-family: 'Montserrat', sans-serif; /* font - Montserrat */
   font-weight: 300; /* font thickness is 300 */
   width: 370px;
-  font-size: small;
+  font-size: medium;
 }
 
 em {
@@ -64,7 +68,7 @@ a {
   height: 45px; /* button height 45px */
   border: none; /* removes border */
   border-radius: 30px; /* curves egdes by 30px */
-  margin-bottom: 60px; /* margin bottom - 60px */
+  margin-bottom: 30px; /* margin bottom - 30px */
 }
 
 .button1:hover {
@@ -78,33 +82,40 @@ nav {
   justify-content: center;
 }
 
-.logo {
+#logo {
   background-image: url(logo2-removebg.png); /* background is selected image */
-  width: 200px; /* width of logo is 190px */
-  height: 200px; /* height of logo is 190px */
+  width: 230px; /* width of logo is 230px */
+  height: 230px; /* height of logo is 230px */
   border-radius: 5px 20px 5px; /* top-left | top-right-and-bottom-left | bottom-right */
   background-size: contain; /* image will be shrunk or enlarged to fit container */
   background-repeat: no-repeat; /* image will not be repeated when shrunk */
   border: none; /* removes borderes on element */
 }
 
-.logo:hover {
+#logo:hover {
   cursor: pointer; /* cursor is changed when hovered */
 }
 
 footer {
   display: flex; /* activates flexbox properties */
   justify-content: flex-start; /* content is justified to the start of the container */
-  margin-top: 100px; /* top margin - 55px */
+  position: fixed;
+  bottom: 0;
+  left: 10px;
 }
 
 .p_footer {
   font-family: 'Montserrat', sans-serif; /* Montserrat font */
   font-weight: 900; /* font thickness 900 */
-  font-size: small; /* font size - small */
+  font-size: medium; /* font size - medium */
+  font-weight: bold;
 }
 
 img {
   width: 900px;
   height: 1300px;
+}
+
+.fa-solid {
+  color: #5F4236;
 }
