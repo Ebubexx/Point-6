@@ -2,35 +2,35 @@
 article {
   display: none;
 }
-img {
+#menu {
   width: 1200px;
   height: 1500px;
 }
 }
 
 @media (max-width: 900px) {
-  img {
+  #menu {
     width: 900px;
     height: 1300px;
   }
 }
 
 @media (max-width: 720px) {
-  img {
+  #menu {
     width: 700px;
     height: 1000px;
   }
 }
 
 @media (max-width: 600px) {
-  img {
+  #menu {
     width: 600px;
     height: 800px;
   }
 }
 
 @media (max-width: 450px) {
-  img {
+  #menu {
     width: 400px;
     height: 600px;
   }

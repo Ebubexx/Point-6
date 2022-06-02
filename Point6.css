@@ -18,7 +18,7 @@ article {
 }
 
 header {
-  display: flex; /* flex */
+  display: flex; 
   text-align: center;
   justify-content: center;
   margin-top: 50px;
@@ -62,7 +62,7 @@ a {
   font-size: medium; /* font size - medium */
 }
 
-.button1 {
+.insta_link {
   background-color: #5F4236;
   width: 150px; /* button width 150px */
   height: 45px; /* button height 45px */
@@ -71,7 +71,7 @@ a {
   margin-bottom: 30px; /* margin bottom - 30px */
 }
 
-.button1:hover {
+.insta_link:hover {
   cursor: pointer; /* changes cursor to pointer when hovered */
   transform: translateX(0.25em); /* moves button 0.25em to the right when hovered */
   box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur */
@@ -111,7 +111,7 @@ footer {
   font-weight: bold;
 }
 
-img {
+#menu {
   width: 900px;
   height: 1300px;
 }
