@@ -1,33 +1,26 @@
-* {
-  background-color: #FBF5F0; /* background colour set to #FBF5F0 */
-}
 
 body {
   display: flex;
   justify-content: space-evenly;
 }
 
-article {
-  width: 500px;
-  height: 720px;
-  border-right: 1px solid rgba(0,0,0,.1);;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  left: 0;
-}
-
 header {
   display: flex; 
   text-align: center;
   justify-content: center;
-  margin-top: 50px;
+  margin: 30px 30px;
 }
 
-h1 {
+h1{
   font-family: 'Cinzel', serif; /* font - Cinzel */
-  font-size: 50px; /* font size - 50px */
+  font-size: 30px; /* font size - 30px */
   margin: 0;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif; /* font - Montserrat */
+  font-size: medium;
+  font-weight: bold;
 }
 
 aside {
@@ -40,7 +33,7 @@ p {
   font-family: 'Montserrat', sans-serif; /* font - Montserrat */
   font-weight: 300; /* font thickness is 300 */
   width: 370px;
-  font-size: medium;
+  font-size: 15px;
 }
 
 em {
@@ -62,7 +55,11 @@ a {
   font-size: medium; /* font size - medium */
 }
 
-.insta_link {
+a:hover {
+  color: white;
+}
+
+.btn {
   background-color: #5F4236;
   width: 150px; /* button width 150px */
   height: 45px; /* button height 45px */
@@ -71,37 +68,19 @@ a {
   margin-bottom: 30px; /* margin bottom - 30px */
 }
 
-.insta_link:hover {
+.btn:hover {
   cursor: pointer; /* changes cursor to pointer when hovered */
   transform: translateX(0.25em); /* moves button 0.25em to the right when hovered */
   box-shadow: -2px 2px 5px #463433; /* adds box shadow left down blur */
+  background-color: #463433;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
+.btn:active {
+  background-color: #463433;
 }
 
-#logo {
-  background-image: url(logo2-removebg.png); /* background is selected image */
-  width: 230px; /* width of logo is 230px */
-  height: 230px; /* height of logo is 230px */
-  border-radius: 5px 20px 5px; /* top-left | top-right-and-bottom-left | bottom-right */
-  background-size: contain; /* image will be shrunk or enlarged to fit container */
-  background-repeat: no-repeat; /* image will not be repeated when shrunk */
-  border: none; /* removes borderes on element */
-}
-
-#logo:hover {
-  cursor: pointer; /* cursor is changed when hovered */
-}
-
-footer {
-  display: flex; /* activates flexbox properties */
-  justify-content: flex-start; /* content is justified to the start of the container */
-  position: fixed;
-  bottom: 0;
-  left: 10px;
+.btn::after {
+  background-color: #5F4236;
 }
 
 .p_footer {
@@ -109,13 +88,24 @@ footer {
   font-weight: 900; /* font thickness 900 */
   font-size: medium; /* font size - medium */
   font-weight: bold;
-}
-
-#menu {
-  width: 900px;
-  height: 1300px;
+  margin-top: 50px;
 }
 
 .fa-solid {
   color: #5F4236;
+}
+
+#menu {
+  width: 1000px;
+  height: 1300px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 140px;
+  height: 140px;
 }
