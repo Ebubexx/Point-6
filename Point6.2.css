@@ -36,6 +36,9 @@
     .p_footer {
       margin-top: 10px;
     }
+    .btn {
+      margin-bottom: 10px;
+    }
   }
 
   @media (max-width: 200px) {
@@ -46,6 +49,9 @@
     }
     .p_footer {
       margin-top: 10px;
+    }
+    .btn {
+      margin-bottom: 10px;
     }
   }
   
