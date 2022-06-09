@@ -100,12 +100,12 @@ a:hover {
   height: 1300px;
 }
 
-div {
+.menu {
   display: flex;
   justify-content: center;
 }
 
 #logo {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
 }

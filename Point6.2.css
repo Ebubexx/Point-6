@@ -31,6 +31,7 @@
     #menu {
       width: 400px;
       height: 600px;
+      margin-top: 30px;
     }
   }
 
@@ -38,6 +39,7 @@
     #menu {
       width: auto;
       height: auto;
+      margin-top: 30px;
     }
   }
   
