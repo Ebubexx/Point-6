@@ -33,12 +33,18 @@
       height: 600px;
       margin-top: 30px;
     }
+    .p_footer {
+      margin-top: 30px;
+    }
   }
 
   @media (max-width: 200px) {
     #menu {
       width: auto;
       height: auto;
+      margin-top: 30px;
+    }
+    .p_footer {
       margin-top: 30px;
     }
   }
